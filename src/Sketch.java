@@ -9,13 +9,13 @@ public class Sketch extends PApplet {
 
     public void draw() {
     // unscramble these lines
-    fill(240, 130, 30); // orange
-    rect(192, 145, 16, 35); // rectangle with height > width
-    noStroke(); // removes outline of shape
-    ellipse(200, 250, 130, 160); //ellipse with height > width
-    background(250, 235, 210); // colors the background a light yellow
-    stroke(170, 80, 10); // adds outline? but disappears the previous shapes 
-    ellipse(225, 160, 40, 20); //
+    fill(240, 130, 30);
+    rect(192, 145, 16, 35);
+    noStroke();
+    ellipse(200, 250, 130, 160);
+    background(250, 235, 210);
+    stroke(170, 80, 10);
+    ellipse(225, 160, 40, 20);
     fill(120, 80, 50);
     ellipse(140, 250, 120, 150);
     noStroke();
