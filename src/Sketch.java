@@ -4,16 +4,16 @@ import processing.core.PApplet;
 public class Sketch extends PApplet {
     // Processing sketch code goes here
     public void settings() {
-        size(800, 600);
+        size(800, 400);
     }
 
     public void draw() {
     // unscramble these lines
+    background(250, 235, 210);
     fill(240, 130, 30);
     rect(192, 145, 16, 35);
     noStroke();
     ellipse(200, 250, 130, 160);
-    background(250, 235, 210);
     stroke(170, 80, 10);
     ellipse(225, 160, 40, 20);
     fill(120, 80, 50);
